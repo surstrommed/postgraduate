@@ -1,0 +1,67 @@
+{
+    "created_at": "16/06/2024 23:35:30",
+    "forecasts": {
+        "api.weatherapi.com": {
+            "temp_c": 17.5,
+            "humidity": 97,
+            "pressure": 1006.0,
+            "wind_speed": 7.2
+        },
+        "api.weatherbit.io": {
+            "temp_c": 19.1,
+            "humidity": 88,
+            "pressure": 991.5,
+            "wind_speed": 3.09
+        },
+        "api.tomorrow.io": {
+            "temp_c": 18.17,
+            "humidity": 95.76,
+            "pressure": 989.77,
+            "wind_speed": 2.55
+        },
+        "weather.visualcrossing.com": {
+            "temp_c": 19.3,
+            "humidity": 94.53,
+            "pressure": 1007.0,
+            "wind_speed": 5.4
+        },
+        "api.open-meteo.com": {
+            "temp_c": 19.2,
+            "humidity": 94,
+            "pressure": 1006.8,
+            "wind_speed": 7.8
+        },
+        "data.api.xweather.com": {
+            "temp_c": 19.4,
+            "humidity": 95,
+            "pressure": 1007,
+            "wind_speed": 10
+        },
+        "api.openweathermap.org": {
+            "temp_c": 17.73,
+            "humidity": 96,
+            "pressure": 1006,
+            "wind_speed": 2.66
+        },
+        "pfa.foreca.com": {
+            "temp_c": 20,
+            "wind_speed": 3
+        },
+        "www.meteosource.com": {
+            "temp_c": 19.0,
+            "wind_speed": 2.5
+        },
+        "my.meteoblue.com": {
+            "temp_c": 19.51,
+            "humidity": 88,
+            "pressure": 1006.38,
+            "wind_speed": 2.19
+        }
+    },
+    "averages": {
+        "temp_c": 18.89,
+        "humidity": 93.54,
+        "pressure": 1002.56,
+        "wind_speed": 4.64
+    }
+}
