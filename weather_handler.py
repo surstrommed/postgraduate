@@ -5,7 +5,6 @@ from codetiming import Timer
 from urllib.parse import urlparse
 from datetime import datetime, timedelta
 
-# Constants for API domain names
 (WEATHERAPI, WEATHERBIT, TOMORROW, VISUALCROSSING, OPENMETEO, XWEATHER,
  OPENWEATHERMAP, FORECA, METEOSOURCE,
  METEOBLUE) = ("api.weatherapi.com", "api.weatherbit.io", "api.tomorrow.io",
@@ -182,7 +181,8 @@ def data_analytics(data):
             }
 
     return {
-        "created_at": datetime.now().strftime("%d/%m/%Y %H:%M:%S"),
+        "created_at": datetime.now().strftime(f"{date_format} %H:%M"),
+        "forecast_date": f"{tomorrow.strftime(date_format)} 00:00",
         "forecasts": forecasts,
         "averages": calculate_averages(forecasts)
     }
