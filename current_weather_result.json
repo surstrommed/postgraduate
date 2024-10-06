@@ -1,0 +1,72 @@
+{
+    "created_at": "2024-10-06 20:46",
+    "forecast_date": "2024-10-06",
+    "forecasts": {
+        "api.weatherapi.com": {
+            "avgtemp_c": 20.6,
+            "avghumidity": 26,
+            "wind_mph": 7.4,
+            "uv": 1.0
+        },
+        "api.weatherbit.io": {
+            "avgtemp_c": 18.2,
+            "avghumidity": 47,
+            "wind_mph": 3.1,
+            "uv": 0
+        },
+        "api.tomorrow.io": {
+            "avgtemp_c": 20,
+            "avghumidity": 36,
+            "wind_mph": 3.19,
+            "uv": 0
+        },
+        "weather.visualcrossing.com": {
+            "avgtemp_c": 20.94,
+            "avghumidity": 43.2,
+            "wind_mph": 8.9,
+            "uv": 0.0
+        },
+        "api.open-meteo.com": {
+            "avgtemp_c": 20.3,
+            "avghumidity": 30,
+            "wind_mph": 5.2,
+            "uv": 0.0
+        },
+        "data.api.xweather.com": {
+            "avgtemp_c": 20,
+            "avghumidity": 55.06,
+            "wind_mph": 7.59,
+            "uv": 0.48
+        },
+        "api.openweathermap.org": {
+            "avgtemp_c": 21.51,
+            "avghumidity": 27,
+            "wind_mph": 2.91,
+            "uv": null
+        },
+        "pfa.foreca.com": {
+            "avgtemp_c": 19,
+            "avghumidity": 37,
+            "wind_mph": 3,
+            "uv": 0
+        },
+        "www.meteosource.com": {
+            "avgtemp_c": 18.5,
+            "avghumidity": null,
+            "wind_mph": 2.8,
+            "uv": null
+        },
+        "my.meteoblue.com": {
+            "avgtemp_c": 17.9,
+            "avghumidity": 52,
+            "wind_mph": 2.02,
+            "uv": 3
+        }
+    },
+    "averages": {
+        "avgtemp_c": 19.7,
+        "avghumidity": 39.25,
+        "wind_mph": 4.61,
+        "uv": 0.56
+    }
+}
