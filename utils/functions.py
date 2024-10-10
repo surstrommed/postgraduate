@@ -1,5 +1,4 @@
 from urllib.parse import urlparse
-from datetime import datetime
 
 
 def find(pred, iter):

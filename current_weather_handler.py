@@ -7,6 +7,7 @@ from datetime import datetime
 from utils.functions import fahrenheit_to_celsius, find, parse_domain_name, kelvin_to_celsius
 from utils.consts import WEATHERAPI, WEATHERBIT, TOMORROW, VISUALCROSSING, OPENMETEO, XWEATHER, OPENWEATHERMAP, FORECA, METEOSOURCE, METEOBLUE
 from utils.consts import urls, date_pattern, today_date
+from email_sender import send_email
 
 
 # Функція для обчислення середніх значень параметрів погоди
@@ -173,6 +174,9 @@ def fetch_weather_data_cfscrape(url):
         return response.json()
     except Exception as e:
         print(f"Error fetching data from {url}: {e}")
+        send_email(
+            "Weather API Failed",
+            f"Failed to retrieve data from the API: {url}.\nDetails: {e}")
         return None
 
 
